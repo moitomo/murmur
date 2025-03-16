@@ -59,11 +59,7 @@ public class MuttersDAO {
 		}
 		return mutterList;
 	}
-	/**
-	 * javadocに説明が入れられるよここがタイトル的なとこ
-	 * @param mutter
-	 * @return
-	 */
+
 	public boolean create(Mutter mutter) {
 		//JDBCドライバを読み込む
 		try {
